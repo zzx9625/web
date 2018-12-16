@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document
+房地产售楼信息主页css
+2018.11.26
+张忠祥
+Zhongxiang
+*/
+.head_top{
+    height:30px;
+    position:relative;
+}
+.head_top_left{
+    float:left;
+    display:block;
+    position:absolute;
+    left:320px;
+    top:5px;
+}
+.head_top_right{
+    position:absolute;
+    float:right;
+    right:320px;
+    top:5px;
+}
+.logo_box{
+    width:900px;
+    height:30px;
+
+    margin:0px auto;
+    margin-top:20px;
+    padding-top:20px;
+
+}
+.span_select{
+    display:block;
+    float:right;}
+.index2_15{
+
+    background-image:url(images/index2_15.png);
+    background-repeat: no-repeat;
+   /* background-position: right;*/
+    padding-left: 4px;
+    tab-index: 18px;
+
+
+
+
+}
+
+
+/*整体*/
+.body_box {
+
+    width: 1080px;
+    height: 1111px;
+    border: 1px solid #000000;
+    margin: 10px auto;
+}
+
+/*   导航  */
+.body_pilot {
+    margin: 20px 0px 0px 25px;
+    height: 88px;
+    width: 1040px;
+}
+
+.body_pilot_ul {
+    background-image: url("images/new_spf_title.png");
+    height: 50px;
+    margin: 0px;
+    list-style: none;
+}
+
+.body_pilot_ul li {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    line-height: 55px;
+    float: left;
+}
+
+/*公告*/
+.gonggao {
+    width: 1040px;
+
+    background: aquamarine;
+    align-content: center;
+}
+
+/*展示左*/
+.body_left {
+
+    margin: 5px 5px 10px 20px;
+    padding: 0px 5px;
+    width: 220px;
+    height: 666px;
+    float: left;
+}
+
+/*左上*/
+.body_left_top {
+    border: darksalmon 1px solid;
+    width: 220px;
+    margin: 5px auto;
+    height: 280px;
+    display: block;
+
+}
+.body_left_top_body {
+   padding: 30px;
+
+
+
+}
+
+/*左下*/
+.body_left_down {
+    border: darksalmon 1px solid;
+    width: 220px;
+    margin-top: 30px;
+
+    height: 350px;
+    display: block;
+
+}
+
+/*
+    展示中间部分*/
+.body_center {
+    margin: 10px 5px 5px 8px;
+    /*padding: 0px 0px 0px 0px;*/
+    border: darksalmon 1px solid;
+    width: 600px;
+    height: 666px;
+    float: left;
+}
+
+/*中间*/
+.body_center_body {
+
+    width: 250px;
+    height: 84px;
+    margin: 20px 10px;
+    display: block;
+    background: darkgray;
+    float: left;
+}
+
+.center_body_title {
+
+    height: 35px;
+
+    position: relative;
+}
+
+.center_body_font {
+    float: left;
+    display: block;
+    position: absolute;
+    background: white;
+    text-align: center;
+    color: #0000FF;
+    width: 150px;
+    height: 50px;
+    left: 20px;
+    top: 10px;
+}
+
+.center_body_a {
+    float: left;
+    position: absolute;
+    height: 35px;
+    left: 520px;
+    top: 10px;
+
+}
+
+/*展示右部*/
+.body_right {
+    margin: 5px 0px 10px 5px;
+    width: 200px;
+    height: 666px;
+    float: left;
+}
+
+/*右上*/
+.body_right_top {
+    padding: auto 0px;
+    margin-bottom: 22px;
+    width: 200px;
+    height: 288px;
+
+}
+
+/*  右上 部分 li设置*/
+.body_right_top li {
+    list-style: none;
+    width: 190px;
+    height: 51px;
+    display: block;
+    margin: 5px auto;
+
+}
+
+/*右下*/
+.body_right_down {
+    border: 1px solid darkgray;
+    margin: 1px auto;
+    width: 190px;
+    height: 175px;
+    display: block;
+}
+.body_rigth_down_body{
+    align-content: center;
+    padding-top: 20%;
+
+}
+b{
+    color: coral;
+}
+/*通用样式  */
+.im {
+    align-content: center;
+    height: 30px;
+    background: url("images/index2_56.png");
+    background-size: 220px 30px;
+    position: relative;
+    color: aliceblue;
+}
+font{
+    font-family: 宋体;
+    font-size: 15pt;
+    color: black;
+
+}
+
+/*所有超链接  更多 */
+.im  a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
